@@ -21,3 +21,9 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`ProofScreen ASP listening on port ${PORT}`);
 });
+
+// Fetch the real SDN snapshot immediately on startup, so a fresh deploy
+// doesn't run on sample data until the next scheduled 3am refresh.
+buildSnapshot()
+  .then(s => console.log(`Startup snapshot fetch complete: ${s.entryCount} entries.`))
+  .catch(err => console.error('Startup snapshot fetch failed:', err.message));
