@@ -11,7 +11,9 @@ app.use('/v1', screenRoutes);
 
 app.get('/health', (req, res) => res.json({ status: 'ok', service: 'ProofScreen ASP' }));
 
-// Auto-refresh the full SDN snapshot once a day
+// Refresh the SDN snapshot on a daily schedule. This may fail on Render's
+// free tier due to memory limits when parsing the full XML - that's fine,
+// the committed data/sdn-snapshot.json remains the fallback/current data.
 cron.schedule('0 3 * * *', () => {
   console.log('Running scheduled SDN snapshot refresh...');
   buildSnapshot().catch(err => console.error('Scheduled snapshot refresh failed:', err.message));
@@ -21,9 +23,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`ProofScreen ASP listening on port ${PORT}`);
 });
-
-// Fetch the real SDN snapshot immediately on startup, so a fresh deploy
-// doesn't run on sample data until the next scheduled 3am refresh.
-buildSnapshot()
-  .then(s => console.log(`Startup snapshot fetch complete: ${s.entryCount} entries.`))
-  .catch(err => console.error('Startup snapshot fetch failed:', err.message));
