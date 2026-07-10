@@ -1,0 +1,23 @@
+{
+  "snapshotVersion": "SAMPLE-2026-07-09-not-official",
+  "generatedAt": "2026-07-09T00:00:00.000Z",
+  "source": "SAMPLE DATA - replace with official OFAC SDN list before submission",
+  "entries": [
+    {
+      "id": "SDN-SAMPLE-001",
+      "type": "entity",
+      "primaryName": "Example Sanctioned Holdings Ltd",
+      "aliases": ["ESH Ltd", "Example Sanctioned Holdings"],
+      "program": "SAMPLE-PROGRAM",
+      "walletAddresses": ["0xdeadbeef00000000000000000000000000dead"]
+    },
+    {
+      "id": "SDN-SAMPLE-002",
+      "type": "individual",
+      "primaryName": "Jane Sample Doe",
+      "aliases": ["J. Sample Doe", "Jane S. Doe"],
+      "program": "SAMPLE-PROGRAM",
+      "walletAddresses": []
+    }
+  ]
+}
