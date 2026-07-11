@@ -12,13 +12,24 @@ router.post('/screen', async (req, res) => {
     const screening = screenEntity(query);
     const report = { query, requester: requester || null, screening, timestamp: new Date().toISOString() };
     const proof = await anchorReport(report);
+
+    const snapshotAgeMs = screening.generatedAt
+      ? Date.now() - new Date(screening.generatedAt).getTime()
+      : null;
+    const snapshotAgeHours = snapshotAgeMs !== null ? Math.round(snapshotAgeMs / 3600000) : null;
+
     res.json({
       verdict: screening.verdict,
       confidence: screening.confidence,
       matched_list: screening.matchedList,
       snapshot_version: screening.snapshotVersion,
+      snapshot_age_hours: snapshotAgeHours,
       proof: { hash: proof.hash, anchored_tx: proof.txHash, chain: proof.chain, timestamp: report.timestamp },
-      fee: { amount: '0.001', currency: 'OKB', status: 'stubbed' }
+      fee: {
+        amount: '0',
+        currency: 'USDT',
+        status: 'free'
+      }
     });
   } catch (err) {
     console.error('Error in /v1/screen:', err);
