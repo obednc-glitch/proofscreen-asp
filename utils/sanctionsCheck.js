@@ -33,22 +33,14 @@ function namesLikelyMatch(a, b) {
   return false;
 }
 
-// Accepts common aliases for the type field so callers don't need to
-// know our exact internal naming convention.
 const TYPE_ALIASES = {
-  wallet: 'wallet_address',
-  address: 'wallet_address',
-  wallet_address: 'wallet_address',
-  contract: 'contract_address',
-  contract_address: 'contract_address',
-  entity: 'entity_name',
-  name: 'entity_name',
-  entity_name: 'entity_name'
+  wallet: 'wallet_address', address: 'wallet_address', wallet_address: 'wallet_address',
+  contract: 'contract_address', contract_address: 'contract_address',
+  entity: 'entity_name', name: 'entity_name', entity_name: 'entity_name'
 };
 
 function normalizeQueryType(type) {
-  const key = String(type).toLowerCase().trim();
-  return TYPE_ALIASES[key] || null;
+  return TYPE_ALIASES[String(type).toLowerCase().trim()] || null;
 }
 
 function screenEntity(query) {
@@ -65,6 +57,7 @@ function screenEntity(query) {
         verdict: 'flagged',
         confidence: 1.0,
         matchedList: match.program,
+        matchedSourceList: match.sourceList || 'UNKNOWN',
         matchedEntry: match.primaryName,
         snapshotVersion: snapshot.snapshotVersion,
         generatedAt: snapshot.generatedAt
@@ -86,6 +79,7 @@ function screenEntity(query) {
           verdict: 'review_required',
           confidence: 0.75,
           matchedList: entry.program,
+          matchedSourceList: entry.sourceList || 'UNKNOWN',
           matchedEntry: entry.primaryName,
           snapshotVersion: snapshot.snapshotVersion,
           generatedAt: snapshot.generatedAt

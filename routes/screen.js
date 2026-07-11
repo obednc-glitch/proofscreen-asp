@@ -22,14 +22,11 @@ router.post('/screen', async (req, res) => {
       verdict: screening.verdict,
       confidence: screening.confidence,
       matched_list: screening.matchedList,
+      matched_source_list: screening.matchedSourceList,
       snapshot_version: screening.snapshotVersion,
       snapshot_age_hours: snapshotAgeHours,
       proof: { hash: proof.hash, anchored_tx: proof.txHash, chain: proof.chain, timestamp: report.timestamp },
-      fee: {
-        amount: '0',
-        currency: 'USDT',
-        status: 'free'
-      }
+      fee: { amount: '0', currency: 'USDT', status: 'free' }
     });
   } catch (err) {
     console.error('Error in /v1/screen:', err);
