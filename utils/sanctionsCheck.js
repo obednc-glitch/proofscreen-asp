@@ -33,15 +33,29 @@ function namesLikelyMatch(a, b) {
   return false;
 }
 
+// Accepts common aliases for the type field so callers don't need to
+// know our exact internal naming convention.
+const TYPE_ALIASES = {
+  wallet: 'wallet_address',
+  address: 'wallet_address',
+  wallet_address: 'wallet_address',
+  contract: 'contract_address',
+  contract_address: 'contract_address',
+  entity: 'entity_name',
+  name: 'entity_name',
+  entity_name: 'entity_name'
+};
+
+function normalizeQueryType(type) {
+  const key = String(type).toLowerCase().trim();
+  return TYPE_ALIASES[key] || null;
+}
+
 function screenEntity(query) {
   const snapshot = loadSnapshot();
+  const resolvedType = normalizeQueryType(query.type);
 
-  // wallet_address and contract_address use identical matching logic -
-  // both are address strings checked against the same SDN digital
-  // currency address entries. This includes sanctioned mixer/contract
-  // addresses (e.g. Tornado Cash), since OFAC lists those the same way
-  // it lists personal wallet addresses in the official SDN data.
-  if (query.type === 'wallet_address' || query.type === 'contract_address') {
+  if (resolvedType === 'wallet_address' || resolvedType === 'contract_address') {
     const target = normalizeAddress(query.value);
     const match = snapshot.entries.find(entry =>
       (entry.walletAddresses || []).some(addr => normalizeAddress(addr) === target)
@@ -64,7 +78,7 @@ function screenEntity(query) {
     };
   }
 
-  if (query.type === 'entity_name') {
+  if (resolvedType === 'entity_name') {
     for (const entry of snapshot.entries) {
       const candidates = [entry.primaryName, ...(entry.aliases || [])];
       if (candidates.some(name => namesLikelyMatch(name, query.value))) {
