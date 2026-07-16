@@ -3,41 +3,44 @@ const express = require('express');
 const cron = require('node-cron');
 const screenRoutes = require('./routes/screen');
 const { buildSnapshot } = require('./scripts/fetchSnapshot');
-const { paymentMiddleware, x402ResourceServer } = require('@okxweb3/x402-express');
-const { ExactEvmScheme } = require('@okxweb3/x402-evm/exact/server');
-const { OKXFacilitatorClient } = require('@okxweb3/x402-core');
 
 const app = express();
 app.use(express.json());
 
-const facilitatorClient = new OKXFacilitatorClient();
-const resourceServer = new x402ResourceServer(facilitatorClient)
-  .register('eip155:196', new ExactEvmScheme());
+const X402_PRICE_USD = '0.01';
+const X402_PRICE_ATOMIC = '10000'; // 0.01 USDT, 6 decimals
+const X402_NETWORK = 'eip155:196';
+const X402_ASSET = 'USDT';
 
-const x402Routes = {
-  'GET /v1/screen': {
-    accepts: {
-      scheme: 'exact',
-      price: '$0.01',
-      network: 'eip155:196',
-      payTo: process.env.X402_PAYTO_ADDRESS,
-      maxTimeoutSeconds: 60
-    },
-    description: 'ProofScreen sanctions screening'
-  },
-  'POST /v1/screen': {
-    accepts: {
-      scheme: 'exact',
-      price: '$0.01',
-      network: 'eip155:196',
-      payTo: process.env.X402_PAYTO_ADDRESS,
-      maxTimeoutSeconds: 60
-    },
-    description: 'ProofScreen sanctions screening'
+function x402Gate(req, res, next) {
+  const paymentHeader = req.header('X-PAYMENT');
+  if (paymentHeader) {
+    // Payment proof present — accept and proceed.
+    // Full signature/settlement verification via OKX facilitator is Phase 3
+    // (requires OKX API credentials, not yet provisioned).
+    return next();
   }
-};
+  res.status(402).json({
+    x402Version: 1,
+    error: 'X-PAYMENT header is required',
+    accepts: [
+      {
+        scheme: 'exact',
+        network: X402_NETWORK,
+        maxAmountRequired: X402_PRICE_ATOMIC,
+        resource: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
+        description: 'ProofScreen sanctions screening',
+        mimeType: 'application/json',
+        payTo: process.env.X402_PAYTO_ADDRESS,
+        maxTimeoutSeconds: 60,
+        asset: X402_ASSET,
+        extra: { priceUsd: X402_PRICE_USD }
+      }
+    ]
+  });
+}
 
-app.use(paymentMiddleware(x402Routes, resourceServer));
+app.use('/v1/screen', x402Gate);
 app.use('/v1', screenRoutes);
 
 app.get('/health', (req, res) => res.json({ status: 'ok', service: 'ProofScreen ASP' }));
