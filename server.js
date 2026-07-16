@@ -7,10 +7,8 @@ const { buildSnapshot } = require('./scripts/fetchSnapshot');
 const app = express();
 app.use(express.json());
 
-const X402_PRICE_USD = '0.01';
-const X402_PRICE_ATOMIC = '10000'; // 0.01 USDT, 6 decimals
 const X402_NETWORK = 'eip155:196';
-const X402_ASSET = 'USDT';
+const X402_ASSET_ADDRESS = '0x779ded0c9e1022225f8e0630b35a9b54be713736'; // USDT0 on X Layer mainnet
 
 function x402Gate(req, res, next) {
   const paymentHeader = req.header('X-PAYMENT');
@@ -27,14 +25,13 @@ function x402Gate(req, res, next) {
       {
         scheme: 'exact',
         network: X402_NETWORK,
-        maxAmountRequired: X402_PRICE_ATOMIC,
+        maxAmountRequired: '0',
         resource: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
-        description: 'ProofScreen sanctions screening',
+        description: 'ProofScreen sanctions screening (free tier)',
         mimeType: 'application/json',
         payTo: process.env.X402_PAYTO_ADDRESS,
         maxTimeoutSeconds: 60,
-        asset: X402_ASSET,
-        extra: { priceUsd: X402_PRICE_USD }
+        asset: X402_ASSET_ADDRESS
       }
     ]
   });
@@ -49,6 +46,14 @@ cron.schedule('0 3 * * *', () => {
   console.log('Running scheduled SDN snapshot refresh...');
   buildSnapshot().catch(err => console.error('Scheduled snapshot refresh failed:', err.message));
 });
+
+// Keep Render free-tier instance warm to avoid cold-start timeouts during review
+const SELF_URL = process.env.RENDER_EXTERNAL_URL;
+if (SELF_URL) {
+  cron.schedule('*/10 * * * *', () => {
+    fetch(`${SELF_URL}/health`).catch(() => {});
+  });
+}
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
