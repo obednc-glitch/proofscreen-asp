@@ -43,25 +43,34 @@ function normalizeQueryType(type) {
   return TYPE_ALIASES[String(type).toLowerCase().trim()] || null;
 }
 
+function dedupe(arr) {
+  return [...new Set(arr)];
+}
+
+function buildMatchResult(matches, snapshot, verdict, confidence) {
+  return {
+    verdict,
+    confidence,
+    matched_list: dedupe(matches.map(m => m.program)),
+    matched_source_list: dedupe(matches.map(m => m.sourceList || 'UNKNOWN')),
+    matchedEntries: matches.map(m => m.primaryName),
+    matchCount: matches.length,
+    snapshotVersion: snapshot.snapshotVersion,
+    generatedAt: snapshot.generatedAt
+  };
+}
+
 function screenEntity(query) {
   const snapshot = loadSnapshot();
   const resolvedType = normalizeQueryType(query.type);
 
   if (resolvedType === 'wallet_address' || resolvedType === 'contract_address') {
     const target = normalizeAddress(query.value);
-    const match = snapshot.entries.find(entry =>
+    const matches = snapshot.entries.filter(entry =>
       (entry.walletAddresses || []).some(addr => normalizeAddress(addr) === target)
     );
-    if (match) {
-      return {
-        verdict: 'flagged',
-        confidence: 1.0,
-        matchedList: match.program,
-        matchedSourceList: match.sourceList || 'UNKNOWN',
-        matchedEntry: match.primaryName,
-        snapshotVersion: snapshot.snapshotVersion,
-        generatedAt: snapshot.generatedAt
-      };
+    if (matches.length > 0) {
+      return buildMatchResult(matches, snapshot, 'flagged', 1.0);
     }
     return {
       verdict: 'clear',
@@ -72,19 +81,12 @@ function screenEntity(query) {
   }
 
   if (resolvedType === 'entity_name') {
-    for (const entry of snapshot.entries) {
+    const matches = snapshot.entries.filter(entry => {
       const candidates = [entry.primaryName, ...(entry.aliases || [])];
-      if (candidates.some(name => namesLikelyMatch(name, query.value))) {
-        return {
-          verdict: 'review_required',
-          confidence: 0.75,
-          matchedList: entry.program,
-          matchedSourceList: entry.sourceList || 'UNKNOWN',
-          matchedEntry: entry.primaryName,
-          snapshotVersion: snapshot.snapshotVersion,
-          generatedAt: snapshot.generatedAt
-        };
-      }
+      return candidates.some(name => namesLikelyMatch(name, query.value));
+    });
+    if (matches.length > 0) {
+      return buildMatchResult(matches, snapshot, 'review_required', 0.75);
     }
     return {
       verdict: 'clear',

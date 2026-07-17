@@ -30,12 +30,14 @@ async function handleScreen(req, res) {
     res.json({
       verdict: screening.verdict,
       confidence: screening.confidence,
-      matched_list: screening.matchedList,
-      matched_source_list: screening.matchedSourceList,
+      matched_list: screening.matched_list || [],
+      matched_source_list: screening.matched_source_list || [],
+      matched_entries: screening.matchedEntries || [],
+      match_count: screening.matchCount || 0,
       snapshot_version: screening.snapshotVersion,
       snapshot_age_hours: snapshotAgeHours,
       proof: { hash: proof.hash, anchored_tx: proof.txHash, chain: proof.chain, timestamp: report.timestamp },
-      fee: { amount: '0.01', currency: 'USDT', status: 'paid' }
+      fee: { amount: '0', currency: 'USDT', status: 'paid' }
     });
   } catch (err) {
     console.error('Error in /v1/screen:', err);
