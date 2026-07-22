@@ -8,33 +8,35 @@ const app = express();
 app.use(express.json());
 
 const X402_NETWORK = 'eip155:196';
-const X402_ASSET_ADDRESS = '0x779ded0c9e1022225f8e0630b35a9b54be713736'; // USDT0 on X Layer mainnet
+const X402_ASSET_ADDRESS = '0x779ded0c9e1022225f8e0630b35a9b54be713736';
 
-function x402Gate(req, res, next) {
-  const paymentHeader = req.header('X-PAYMENT');
-  if (paymentHeader) {
-    // Payment proof present — accept and proceed.
-    // Full signature/settlement verification via OKX facilitator is Phase 3
-    // (requires OKX API credentials, not yet provisioned).
-    return next();
-  }
-  res.status(402).json({
+function buildChallenge(req) {
+  return {
     x402Version: 1,
-    error: 'X-PAYMENT header is required',
+    resource: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
     accepts: [
       {
         scheme: 'exact',
         network: X402_NETWORK,
-        maxAmountRequired: '0',
-        resource: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
-        description: 'ProofScreen sanctions screening (free tier)',
-        mimeType: 'application/json',
+        asset: X402_ASSET_ADDRESS,
         payTo: process.env.X402_PAYTO_ADDRESS,
+        maxAmountRequired: '0',
         maxTimeoutSeconds: 60,
-        asset: X402_ASSET_ADDRESS
+        extra: {}
       }
     ]
-  });
+  };
+}
+
+function x402Gate(req, res, next) {
+  const paymentHeader = req.header('X-PAYMENT');
+  if (paymentHeader) {
+    return next();
+  }
+  const challenge = buildChallenge(req);
+  const encoded = Buffer.from(JSON.stringify(challenge)).toString('base64');
+  res.set('PAYMENT-REQUIRED', encoded);
+  res.status(402).json(challenge);
 }
 
 app.use('/v1/screen', x402Gate);
@@ -47,7 +49,6 @@ cron.schedule('0 3 * * *', () => {
   buildSnapshot().catch(err => console.error('Scheduled snapshot refresh failed:', err.message));
 });
 
-// Keep Render free-tier instance warm to avoid cold-start timeouts during review
 const SELF_URL = process.env.RENDER_EXTERNAL_URL;
 if (SELF_URL) {
   cron.schedule('*/10 * * * *', () => {
