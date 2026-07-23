@@ -20,7 +20,7 @@ function buildChallenge(req) {
         network: X402_NETWORK,
         asset: X402_ASSET_ADDRESS,
         payTo: process.env.X402_PAYTO_ADDRESS,
-        maxAmountRequired: '0',
+        amount: '0',
         maxTimeoutSeconds: 60,
         extra: {}
       }
