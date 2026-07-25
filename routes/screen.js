@@ -16,7 +16,7 @@ function normalizeQuery(body) {
 
 async function handleScreen(req, res) {
   try {
-    const query = normalizeQuery(req.body || {});
+    const query = normalizeQuery({ ...req.query, ...req.body });
     if (!query) {
       return res.status(400).json({ error: 'wallet_address, contract_address, or entity_name is required' });
     }
