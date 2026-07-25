@@ -29,11 +29,18 @@ function buildChallenge(req) {
 }
 
 function x402Gate(req, res, next) {
+  const challenge = buildChallenge(req);
+  const fee = challenge.accepts[0].amount;
+
+  // Zero-fee tier: skip the payment gate entirely and serve the result.
+  if (fee === '0') {
+    return next();
+  }
+
   const paymentHeader = req.header('X-PAYMENT');
   if (paymentHeader) {
     return next();
   }
-  const challenge = buildChallenge(req);
   const encoded = Buffer.from(JSON.stringify(challenge)).toString('base64');
   res.set('PAYMENT-REQUIRED', encoded);
   res.status(402).json(challenge);
