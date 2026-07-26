@@ -1,11 +1,11 @@
 {
-  "snapshotVersion": "MULTI-SOURCE-2026-07-11T19:03:58.161Z",
-  "generatedAt": "2026-07-11T19:03:58.193Z",
+  "snapshotVersion": "MULTI-SOURCE-2026-07-25T23:56:47.169Z",
+  "generatedAt": "2026-07-25T23:56:47.184Z",
   "sources": [
     "OFAC",
     "UN"
   ],
-  "entryCount": 20145,
+  "entryCount": 20265,
   "entries": [
     {
       "id": "OFAC-36",
@@ -799,7 +799,11 @@
       "program": "IRAN, IFSR, IRGC, SDGT",
       "walletAddresses": [
         "TNiq9AXBp9EjUqhDhrwrfvAA8U3GUQZH81",
-        "TTiDLWE6fZK8okMJv6ijg42yrH6W2pjSr9"
+        "TTiDLWE6fZK8okMJv6ijg42yrH6W2pjSr9",
+        "TAhwhFv3JpK39Nc2m8W5LPCcoTisutiRfp",
+        "TJdgB1k6ot3f2nLuZug6D8eD3HavTmzmSK",
+        "TXGHxdYbGy574z5hBu4LNzq9NzjZQ9bhUf",
+        "TFQbqaNbmq2xsVor2NbufLkYZvxFC9wC7k"
       ]
     },
     {
@@ -8469,9 +8473,11 @@
         "VCFO",
         "CARRILLO FUENTES DRUG TRAFFICKING ORGANIZATION",
         "LA LINEA",
-        "CARTEL DE JUAREZ"
+        "CARTEL DE JUAREZ",
+        "VICENTE CARRILLO FUENTES ORGANIZATION",
+        "BARRIO AZTECA"
       ],
-      "program": "ILLICIT-DRUGS-EO14059, SDNTK",
+      "program": "ILLICIT-DRUGS-EO14059, SDNTK, FTO, SDGT",
       "walletAddresses": []
     },
     {
@@ -77759,128 +77765,6 @@
       "walletAddresses": []
     },
     {
-      "id": "OFAC-29242",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Chris TANG",
-      "aliases": [
-        "Ping-keung TANG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29243",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Teresa CHENG",
-      "aliases": [
-        "Yeuk Wah CHENG",
-        "Teresa Yeuk-wah CHENG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29244",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Stephen LO",
-      "aliases": [
-        "Wai-chung LO",
-        "Stephen Wai-chung LO"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29246",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Erick TSANG",
-      "aliases": [
-        "Kwok-wai TSANG",
-        "Erick Kwok-wai TSANG",
-        "Guowei CENG",
-        "Guowei ZENG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29249",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Carrie LAM",
-      "aliases": [
-        "Yuet-ngor LAM CHENG",
-        "Carrie Yuet-ngor LAM CHENG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29250",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "John Ka-chiu LEE",
-      "aliases": [
-        "John LEE",
-        "Ka Chiu LEE",
-        "LI, Jiachao"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29259",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Xiaoming ZHANG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29260",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Eric CHAN",
-      "aliases": [
-        "Kwok-ki CHAN",
-        "Eric Kwok-ki CHAN"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29261",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Yanxiong ZHENG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29262",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Baolong XIA",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-29263",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Huining LUO",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
       "id": "OFAC-29279",
       "sourceList": "OFAC",
       "type": "individual",
@@ -78348,15 +78232,15 @@
       ],
       "program": "CYBER2",
       "walletAddresses": [
+        "t1g7wowvQ8gn2v8jrU1biyJ26sieNqNsBJy",
+        "XnPFsRWTaSgiVauosEwQ6dEitGYXgwznz2",
+        "GPwg61XoHqQPNmAucFACuQ5H9sGCDv9TpS",
+        1.2360592016520944e+48,
         "1Q6saNmqKkyFB9mFR68Ck8F7Dp7dTopF2W",
         "1DDA93oZPn7wte2eR1ABwcFoxUFxkKMwCf",
         1.2360592016520944e+48,
         "5be5543ff73456ab9f2d207887e2af87322c651ea1a873c5b25b7ffae456c320",
-        "LNwgtMxcKUQ51dw7bQL1yPQjBVZh6QEqsd",
-        "t1g7wowvQ8gn2v8jrU1biyJ26sieNqNsBJy",
-        "XnPFsRWTaSgiVauosEwQ6dEitGYXgwznz2",
-        "GPwg61XoHqQPNmAucFACuQ5H9sGCDv9TpS",
-        1.2360592016520944e+48
+        "LNwgtMxcKUQ51dw7bQL1yPQjBVZh6QEqsd"
       ]
     },
     {
@@ -78659,11 +78543,11 @@
       "program": "ELECTION-EO13848, CYBER2",
       "walletAddresses": [
         "Leo3j36nn1JcsUQruytQhFUdCdCH5YHMR3",
-        "Xs3vzQmNvAxRa3Xo8XzQqUb3BMgb9EogF4",
         "12udabs2TkX7NXCSj6KpqXfakjE52ZPLhz",
         "1DT3tenf14cxz9WFNxmYrXFbB6TFiVWA9U",
         8.227129369153546e+47,
-        9.58526941165887e+47
+        9.58526941165887e+47,
+        "Xs3vzQmNvAxRa3Xo8XzQqUb3BMgb9EogF4"
       ]
     },
     {
@@ -78674,10 +78558,10 @@
       "aliases": [],
       "program": "CYBER2, ELECTION-EO13848",
       "walletAddresses": [
-        "LWnbjLYUfqeokfbWM4FcU7uk2FP2DSxuWS",
-        "LaYUy1DGfVSuSF5KbPhbLrm8kRotqiwUJn",
         "t1WSKwCDL1QYRRUrCCknEs5tDLhtGVYu9KM",
         "12sjrrhoFEsedNRhtgwvvRqjFTh8fZTDX9",
+        "LWnbjLYUfqeokfbWM4FcU7uk2FP2DSxuWS",
+        "LaYUy1DGfVSuSF5KbPhbLrm8kRotqiwUJn",
         "1Fz29BQp82pE3vXXcsZoMNQ3KSHfMzfMe3",
         "1AeSq93WDNdLoEJ92sex7T8xQZoYYm8BtS",
         "1AoxtfiBQ22DvbhqAN9Ctb8sULMRhrdwTr",
@@ -80768,56 +80652,12 @@
       "walletAddresses": []
     },
     {
-      "id": "OFAC-30322",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Edwina LAU",
-      "aliases": [
-        "Chi Wai LAU",
-        "Cihui LIU",
-        "Edwina Chi Wai LAU"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
       "id": "OFAC-30342",
       "sourceList": "OFAC",
       "type": "individual",
       "primaryName": "Harry Varney Gboto-Nambi SHERMAN",
       "aliases": [],
       "program": "GLOMAG",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30343",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Kwai-wah LI",
-      "aliases": [
-        "Steve Kwai-wah LI",
-        "Guihua LI",
-        "Kwai-wah LEE"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30344",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Zhonghua DENG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30345",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Jiangzhou LI",
-      "aliases": [],
-      "program": "HK-EO13936",
       "walletAddresses": []
     },
     {
@@ -81702,139 +81542,6 @@
       "walletAddresses": []
     },
     {
-      "id": "OFAC-30503",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Chen WANG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30504",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Jianming CAO",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30505",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Chunxian ZHANG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30506",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Yueyue SHEN",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30507",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Bingxuan JI",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30508",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Arken IMIRBAKI",
-      "aliases": [
-        "Ailigeng YIMINGBAHAI"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30509",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Exiang WAN",
-      "aliases": [
-        "Exiang WANG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30510",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Zhu CHEN",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30511",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Dongming WANG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30512",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Padma CHOLING",
-      "aliases": [
-        "Baima CHILIN",
-        "Pelma TRILEK"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30513",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Zhongli DING",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30514",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Mingjin HAO",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30515",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Dafeng CAI",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30516",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Weihua WU",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
       "id": "OFAC-30517",
       "sourceList": "OFAC",
       "type": "individual",
@@ -81860,7 +81567,6 @@
       ],
       "program": "CYBER2, ELECTION-EO13848",
       "walletAddresses": [
-        "18M8bJWMzWHDBMxoLqjHHAffdRy4SrzkfB",
         "1NE2NiGhhbkFPSEyNWwj7hKGhGDedBtSrQ",
         "19D8PHBjZH29uS1uPZ4m3sVyqqfF8UFG9o",
         "1EYitrwBYNWuTBcjZFbEUdqHppe2raLpaF",
@@ -81876,6 +81582,7 @@
         7.176401330583499e+47,
         6.545160903262494e+47,
         7.256092809054602e+47,
+        "18M8bJWMzWHDBMxoLqjHHAffdRy4SrzkfB",
         "LQAhYwwK5AR1JQiQPr7vu8Pu4b6qcxxvNB",
         "LgwmgYnraU2uBWHVFUDgAmFCPYj5Yw8C9L",
         "LeKvNdNEzgQkzVVnRdV3fAu2DSF1nLsNw6"
@@ -81905,8 +81612,8 @@
       "walletAddresses": [
         "1KSAbh5trMCTZwhiNsuUQvfTtSSTT8zqRk",
         "1BiUFjzH6wsT73U3tfy4aXHCQsYQHzjk5h",
-        "DFFJhnQNZf8rf67tYnesPu7MuGUpYtzv7Z",
-        "LeKvNdNEzgQkzVVnRdV3fAu2DSF1nLsNw6"
+        "LeKvNdNEzgQkzVVnRdV3fAu2DSF1nLsNw6",
+        "DFFJhnQNZf8rf67tYnesPu7MuGUpYtzv7Z"
       ]
     },
     {
@@ -83451,73 +83158,6 @@
         "Allaa AL-SAMAHY"
       ],
       "program": "SDGT",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30964",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Frederic CHOI",
-      "aliases": [
-        "Chin-pang CHOI",
-        "Frederic Chin Pang CHOI"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30965",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Kelvin KONG",
-      "aliases": [
-        "Hok Lai KONG",
-        "Kelvin Hok Lai KONG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30966",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Andrew KAN",
-      "aliases": [
-        "Kai Yan KAN",
-        "Andrew Kai Yan KAN"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30967",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Wenqing SUN",
-      "aliases": [
-        "Qingye SUN"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30968",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Quan YOU",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-30969",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Yiu-chung TAM",
-      "aliases": [
-        "Yaozong TAN"
-      ],
-      "program": "HK-EO13936",
       "walletAddresses": []
     },
     {
@@ -86858,69 +86498,6 @@
         "COMEXCAFE"
       ],
       "program": "ILLICIT-DRUGS-EO14059",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32471",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Dong CHEN",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32472",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Jianping YANG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32473",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Hong QIU",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32474",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Xinning LU",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32475",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Tieniu TAN",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32476",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Jing HE",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-32477",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Zonghua YIN",
-      "aliases": [],
-      "program": "HK-EO13936",
       "walletAddresses": []
     },
     {
@@ -132948,15 +132525,6 @@
       "walletAddresses": []
     },
     {
-      "id": "OFAC-44525",
-      "sourceList": "OFAC",
-      "type": "entity",
-      "primaryName": "BEL-KAP-STEEL LLC",
-      "aliases": [],
-      "program": "BELARUS-EO14038",
-      "walletAddresses": []
-    },
-    {
       "id": "OFAC-44538",
       "sourceList": "OFAC",
       "type": "individual",
@@ -136221,9 +135789,9 @@
       ],
       "program": "ILLICIT-DRUGS-EO14059",
       "walletAddresses": [
+        "TEAqwfMhXLaomXhZ8KeMhx3njGmQEDnsUR",
         "3B7S6zrgxQVQUHTU8wstM23tB9afE7ojuX",
-        4.740780182674563e+47,
-        "TEAqwfMhXLaomXhZ8KeMhx3njGmQEDnsUR"
+        4.740780182674563e+47
       ]
     },
     {
@@ -141665,7 +141233,8 @@
       "type": "entity",
       "primaryName": "A T S HEAVY EQUIPMENT AND MACHINERY SPARE PARTS TRADING LLC",
       "aliases": [
-        "ATS HEAVY EQUIPMENT"
+        "ATS HEAVY EQUIPMENT",
+        "ALWAHA ALSAFRA GENERAL TRADING L.L.C."
       ],
       "program": "RUSSIA-EO14024",
       "walletAddresses": []
@@ -169922,8 +169491,8 @@
       ],
       "program": "CYBER2, RUSSIA-EO14024",
       "walletAddresses": [
-        "TTUDyVhhpCC1xJoPmWzdjLAzeoPwbSABdr",
         "M8yFL6SFC6TreATegTyuSYkDfDRbisdpT3",
+        "TTUDyVhhpCC1xJoPmWzdjLAzeoPwbSABdr",
         "13JtX4h7G5ZuNK5mFudKGq9DHLvvMFuNuz",
         5.249127636187085e+46
       ]
@@ -183505,9 +183074,10 @@
       "primaryName": "LOS VIAGRAS",
       "aliases": [
         "LOS VIAGRAS CARTEL",
-        "CARTEL DE LOS VIAGRAS"
+        "CARTEL DE LOS VIAGRAS",
+        "LOS BLANCOS DE TROYA"
       ],
-      "program": "ILLICIT-DRUGS-EO14059",
+      "program": "ILLICIT-DRUGS-EO14059, FTO, SDGT",
       "walletAddresses": []
     },
     {
@@ -186903,32 +186473,6 @@
       "walletAddresses": []
     },
     {
-      "id": "OFAC-53814",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Paul Ting Kwok LAM",
-      "aliases": [
-        "Ting Kwok LAM",
-        "Ting Kwok Paul LAM",
-        "Dingguo LIN"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-53815",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Sonny Chi Kwong AU",
-      "aliases": [
-        "Chi Kwong AU",
-        "Zhiguang OU",
-        "Chi Kwong Sonny AU"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
       "id": "OFAC-53816",
       "sourceList": "OFAC",
       "type": "entity",
@@ -187027,51 +186571,6 @@
         "Gayk Vanushevich ASATRYAN"
       ],
       "program": "DPRK3",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-53825",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Jingwei DONG",
-      "aliases": [],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-53826",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Dick Chung Chun WONG",
-      "aliases": [
-        "Chung Chun WONG",
-        "Chung Chun Dick WONG"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-53827",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Raymond Chak Yee SIU",
-      "aliases": [
-        "Zeyi XIAO",
-        "Chak Yee SIU",
-        "Chak Yee Raymond SIU"
-      ],
-      "program": "HK-EO13936",
-      "walletAddresses": []
-    },
-    {
-      "id": "OFAC-53828",
-      "sourceList": "OFAC",
-      "type": "individual",
-      "primaryName": "Margaret Wing Lan CHIU",
-      "aliases": [
-        "Wing Lan CHIU"
-      ],
-      "program": "HK-EO13936",
       "walletAddresses": []
     },
     {
@@ -204475,6 +203974,18 @@
       "walletAddresses": []
     },
     {
+      "id": "OFAC-57370",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Juan Carlos GONZALEZ",
+      "aliases": [
+        "Juan Carlos VALENCIA GONZALEZ",
+        "Pelon"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
       "id": "OFAC-57384",
       "sourceList": "OFAC",
       "type": "individual",
@@ -207829,6 +207340,28 @@
       "walletAddresses": []
     },
     {
+      "id": "OFAC-57965",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jorge ZEPEDA RODRIGUEZ",
+      "aliases": [
+        "ZEPEDA, George"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57966",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Marcial Apolinar DIAZ ROBLES",
+      "aliases": [
+        "ROBLES, Polo"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
       "id": "OFAC-57967",
       "sourceList": "OFAC",
       "type": "entity",
@@ -207844,6 +207377,17 @@
       "walletAddresses": []
     },
     {
+      "id": "OFAC-57968",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Pedro Marcial DIAZ ROBLES",
+      "aliases": [
+        "ROBLES, Peter"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
       "id": "OFAC-57969",
       "sourceList": "OFAC",
       "type": "individual",
@@ -207853,6 +207397,15 @@
         "Muhammad MUKHTAR"
       ],
       "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57970",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "OPTIC PRIVATE TRANSPORTATION S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
       "walletAddresses": []
     },
     {
@@ -207892,6 +207445,25 @@
       "walletAddresses": []
     },
     {
+      "id": "OFAC-57975",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "FIRST VPN SERVICE",
+      "aliases": [
+        "1VPNS",
+        "FVPNS",
+        "FIRSTVPN"
+      ],
+      "program": "CYBER4",
+      "walletAddresses": [
+        "bc1qdnr88f4d2yqunnc4mjsguezm6g3mlwe44z5dw8",
+        "bc1qr4ankqmvmrhce3ydvzse86dfx5s3zhehfr9tg9",
+        2.230485027430164e+47,
+        "TUuaxBAWfA5nmsqNfycxYrzEvz4a5GJMGY",
+        "ltc1qr8ntsedq8tv0svmxqhzvdcdl5k7kntdmnhwep7"
+      ]
+    },
+    {
       "id": "OFAC-57976",
       "sourceList": "OFAC",
       "type": "individual",
@@ -207907,6 +207479,1565 @@
       "primaryName": "Fredy Alejandro LOPEZ OCAMPO",
       "aliases": [],
       "program": "SUDAN-EO14098",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57978",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Dmytro RASHEVSKYI",
+      "aliases": [
+        "Dmitry RASHEVSKY",
+        "Maksim SORIN",
+        "Roman CHABANENKO",
+        "WALKER, Johny",
+        "JOHNYW255",
+        "JOBBERJOBBER777",
+        "RASHDV7"
+      ],
+      "program": "CYBER4",
+      "walletAddresses": [
+        "1MTndG4K51RRMvkzyvguaHnQpiMLnxFGzM",
+        "1DfyWkiXVVqWfcSduj23qTDis9kb2qvRDa",
+        1.6613403305260946e+47,
+        2.5400108567824443e+47,
+        "LcP1DumXkNJbBtSYD3XxAfsJ2nZR5hLdpM",
+        "LbPAqHvemZBv3pvAqiAtDnZ3U1t6EziaL1",
+        "t1LHesgnkapziGQCJtrfZWYXhyjfTVo1dvh",
+        "XcuGqRfrR85zyDrzVr1gSL5RNjwwpbu2KS",
+        "XowUeMFa1FkEUnAHL78E5oqpezMfSB6xP1",
+        "TTLRNgLpz5H5tLPuNU4FViUs7zmmAtyvzW",
+        "TBFW9gF4oDX5cG44gS7AoxQeujScmm3z6h",
+        "DHzAVdEoL3PjGeLWNdEJwwMA1CeQ9J9Cpo",
+        "DTqpKQ96rqkTvHcohQQd9BksmgRjasHgGo",
+        "Fc1EwQUZyTEagaDvA1utHXCcZNyG1x2PLt2DfNu1cJdH",
+        "FuCC7GoYwt5TsNTjWL23Xx9UKCvC18chjMEFPL3vJDCC"
+      ]
+    },
+    {
+      "id": "OFAC-57995",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Salvador Israel RODRIGUEZ FLORES",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57996",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jorge VILLA SANCHEZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57997",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Adolfo Gabriel MEDINA CHAVIRA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57998",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jorge Fernando CRUZ CABRERA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-57999",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Julio Cesar CASTELLANOS CEJA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58000",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Luis Mario MENDOZA GARCIA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58002",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Hugo Alejandro SANCHEZ TAMAYO",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58003",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "MEDIN PRODUCTS",
+      "aliases": [
+        "MEDIN PRODUCTS S.A.S."
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58004",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "MUNDO FIT SUPLEMENTOS S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58013",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Gerardo BOTELLO ROZALEZ",
+      "aliases": [
+        "Gerardo BOTELLO ROSALES",
+        "El Cachas"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58014",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Gustavo BOTELLO RODRIGUEZ",
+      "aliases": [
+        "Viejon",
+        "Tavo"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58015",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Wiliams Geovanni BOTELLO RODRIGUEZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58016",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "BUBUX BABY SHOES S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58017",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Miguel Angel AYALA BOTELLO",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58018",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CORPORATIVO DE SEGURIDAD PRIVADA ALFA Y GAMA S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58019",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "RANCHO SAN MIGUEL LOS TRES HERMANOS S.P.R. DE R.L. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58020",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "GREEN AGROPACIFIC S.P.R. DE R.L. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58021",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Liliana CISNEROS TAPIA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58022",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Edgar Gerardo BOTELLO ORTIZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58023",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jesus David BOTELLO ORTIZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58024",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Ricardo BOTELLO ORTIZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58033",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Feliciano LEDEZMA RAMIREZ",
+      "aliases": [
+        "Chano Limones"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58034",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Alma Laura MENA ALVARADO",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58035",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jose MORA LEON",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58036",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "STRONG ENERGY S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58037",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "TRANSIC LOGISTIC S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58038",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Francisco Noe GONZALEZ RAMIREZ",
+      "aliases": [
+        "El F1"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58039",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Rodolfo Alejandro LOZA GARCIA",
+      "aliases": [
+        "El 26"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58041",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Karely Lizbeth RAMIREZ BANALES",
+      "aliases": [
+        "Kareli Lizbeth BANUELOS RAMIREZ"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58042",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Areli Isis MEDINA FLORES",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58043",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jose Guadalupe RUIZ BANUELOS",
+      "aliases": [
+        "Venado"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58044",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Cesar Alejandro VILLASENOR OLIVARES",
+      "aliases": [
+        "El Guero Conta"
+      ],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58045",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Gabriel SERRANO MAGANA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58046",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ASSOCIATION OF COMBATANTS OF THE CUBAN REVOLUTION",
+      "aliases": [
+        "ACRC",
+        "ASOCIACION DE COMBATIENTES DE LA REVOLUCION CUBANA"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58051",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "GRUPO EMPRESARIAL DEL COMERCIO EXTERIOR",
+      "aliases": [
+        "GECOMEX"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58052",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ENETEC S.A.",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58053",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ORGANIZACION SUPERIOR DE DIRECCION EMPRESARIAL CAUDAL S.A.",
+      "aliases": [
+        "GRUPO CAUDAL S.A.",
+        "OSDE CAUDAL S.A."
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58054",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "GRUPO EMPRESARIAL DE TRANSPORTE MARITIMO PORTUARIO",
+      "aliases": [
+        "GEMAR"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58055",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "MILICIAS DE TROPAS TERRITORIALES",
+      "aliases": [
+        "TERRITORIAL TROOP MILITIAS",
+        "MTT"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58056",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CORPORACION ANTILLANA EXPORTADORA SA",
+      "aliases": [
+        "ANTEX S.A.",
+        "CORPORACION ANTEX, S.A.",
+        "CORPORACION COMERCIAL ANTEX, S.A.",
+        "ANTEX EXPORTING CORPORATION S.A.",
+        "ANTILLEAN EXPORTER PLC"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58057",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "COREYDAN S.A.",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58058",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "RAPID RESPONSE BRIGADES",
+      "aliases": [
+        "BRIGADAS DE ACCION RAPIDA",
+        "DESTACAMENTOS DE RESPUESTA RAPIDA",
+        "BRIGADAS DE RESPUESTA RAPIDA"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58059",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "MINISTRY OF TOURISM OF CUBA",
+      "aliases": [
+        "MINTUR",
+        "MINISTERIO DE TURISMO DE CUBA"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58060",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jose Octaviano GARCIA MARTINEZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58061",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Joana DOMINGUEZ AGUILERA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58062",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "PETROCODA S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58063",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "STELLA SERVICIOS COMERCIALES Y EMPRESARIALES S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58064",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "EL ALMACEN LICORERIA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58065",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Martha Alicia ALVARADO RODRIGUEZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58066",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Cuauhtemoc RIVERA ZEPEDA",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58067",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Uriel HERNANDEZ MORALES",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58068",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Efrain CORONA PIMENTEL",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58069",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Angel Gabriel LOPEZ LARIOS",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58070",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jose Jesus GUTIERREZ VALDEZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58071",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Fidel Damian MORENO LOPEZ",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58072",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Roberto JIMENEZ ARIAS",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58073",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "PRODUCTORES VAGU S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58074",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CASA TEQUILERA EL ORIGEN DEL TEQUILA S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58075",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "HURRARI KASH S.A. PROMOTORA DE INVERSION DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58076",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "AGROPECUARIA AMATEQ DEL VALLE S.A. DE C.V.",
+      "aliases": [],
+      "program": "ILLICIT-DRUGS-EO14059, SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58077",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Yevgeniy Vladimirovich SILAYEV",
+      "aliases": [
+        "Yauheni SILAYEU"
+      ],
+      "program": "CYBER4",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58093",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "AVA TARABAR DARYA COMPANY",
+      "aliases": [
+        "AVA TARABAR DARYA CO LTD"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58094",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Mohammad Reza RAHBAR MADANI",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58095",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEPEHR NOOR MOBIN COMPANY",
+      "aliases": [
+        "SEPEHR NOOR MOBIN SHIPPING CO"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58096",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEPEHR PAYAM",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58097",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ERIKA",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58098",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ARKANOOR 2",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58099",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ARKANOOR 3",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58100",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA CRUISER",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58101",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA CASTLE",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58102",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA ANCHOR",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58103",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA LEAD SHIPPING PTE. LTD.",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58104",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "KANGRI 1 INC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58106",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CICCIO",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58107",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SHENTON WAY",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58109",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "TANJONG PAGAR 1",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58110",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "VIRENT",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58111",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "PLATINUM KNIGHTS LTD",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58112",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "HOPE 1 SHIPPING INC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58113",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "NUVETRRO SHIPPING INC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58114",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "VELTRRIVO SHIPPING INC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58115",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "OCEAN SEARUM ONE LIMITED",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58116",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "HANSA SHIPPING INC.",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58117",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "HOPE 1",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58118",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "JADE",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58119",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "OPAL",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58120",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ELPINIKI",
+      "aliases": [
+        "CORN"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58121",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DARIKA",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58122",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jijin GEORGE",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58123",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Maksim TSERNOSJOV",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58124",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Gautam VISHAVDEEP",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58125",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Asghar Aghili DEHKORDI",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58126",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "AVRATEK OOO",
+      "aliases": [],
+      "program": "NPWMD, IFSR",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58127",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Behzad MOGHADAS",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58128",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Hossein Ghorbani ZAHED",
+      "aliases": [
+        "Hossein GHORBANIZAHED"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58130",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "NIKA JET COMPANY",
+      "aliases": [],
+      "program": "NPWMD, IFSR",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58131",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "GOLDEN NEST GROUP LTD",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58132",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "BSG MANAGEMENT LTD",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58134",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA LEAD SHIPPING AGENCY INDIA PRIVATE LIMITED",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58135",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA LEAD SHIPPING MARSHALL ISLANDS LTD",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58136",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA LEAD SHIPPING DMCC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58137",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "WE FREIGHT SHIPPING LLC",
+      "aliases": [
+        "WEFREIGHT INDIA PRIVATE LIMITED",
+        "WE FREIGHT SHIPPING AND LOGISTICS THAILAND LIMITED",
+        "WE FREIGHT INVESTMENT FZCO"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58138",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "VOLTA SHIPPING SERVICES LLC",
+      "aliases": [
+        "VOLTA SHIPPING SERVICES FZCO"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58139",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Dounia ETTAIB",
+      "aliases": [],
+      "program": "NPWMD, IFSR",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58142",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Behrouz NAMAZI",
+      "aliases": [
+        "Behruz NAMAZI"
+      ],
+      "program": "NPWMD, IFSR",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58143",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Mariya Vladimirovna SELINA",
+      "aliases": [],
+      "program": "NPWMD, IFSR",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58144",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Vadim Anatolyevich DRUZHBIN",
+      "aliases": [],
+      "program": "IFSR, NPWMD",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58145",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "VANGUARD TACTICAL SUPPLY LIMITED",
+      "aliases": [],
+      "program": "IFSR, NPWMD",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58146",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "LUBECK SHIPPING LLC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58147",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Ali RAKHBARMADANI",
+      "aliases": [
+        "Ali RAHBARMADANI"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58148",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DEZERA SHIPPING FZCO",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58149",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "AL KINA COMMERCIAL BROKER LLC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58150",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "AARE LINES INC.",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58151",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "GLAVOS SHIPPING FZCO",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58152",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SAI WAN SHIPPING LIMITED",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58153",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "GEMMA",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58154",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Alessandra RONCO",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58155",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "NADIA",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58157",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "EVORIT STRATEGY CONSULTING LLC-FZ",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58158",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "SEA GALLEON",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58159",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "PAYA LEBAR",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58160",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Martin Austin KAALUND",
+      "aliases": [
+        "Martin KAALUND"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58174",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ZEDPAY FINANSAL SISTEM VE HIZMETLERI ANONIM SIRKETI",
+      "aliases": [
+        "ZEDPAY DIJITAL YAZILIM SISTEMLERI ANONIM SIRKETI",
+        "ZEDPAY FINANCIAL SYSTEM AND SERVICES P.J.S.C.",
+        "ZEDPAY"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58176",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DOT ONE VALUE CREATION GROUP",
+      "aliases": [
+        "DOTONE",
+        "AVAN INTERNATIONAL FINANCIAL AND ECONOMIC DEVELOPMENT GROUP",
+        "A.ONE INTERNATIONAL FINANCIAL AND ECONOMIC DEVELOPMENT GROUP",
+        "ONE GROUP",
+        "ONE INTERNATIONAL FINANCIAL AND ECONOMIC DEVELOPMENT GROUP",
+        "DOT ONE HOLDING"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58177",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ZEDX DMCC",
+      "aliases": [],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58178",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DOTONE GOLD COMPANY",
+      "aliases": [
+        "ZARRIN SIM AVAN COMPANY",
+        "TALA TOKEN",
+        "TALA GOLD"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58179",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DOTONE RAIL COMPANY",
+      "aliases": [
+        "AVAN RAIL TRAINS COMPANY"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58180",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DOTONE BARTER COMPANY",
+      "aliases": [
+        "AVAN TAHATOR COMPANY",
+        "AVAN BARTER COMPANY"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58181",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DOTONE AIRLINES COMPANY",
+      "aliases": [
+        "AVAN AIRSA AIRLINES COMPANY",
+        "AVAN IRSA AIRLINES COMPANY",
+        "AVAN AIR",
+        "DOT ONE AIR AIRLINE COMPANY"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58182",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "DOTONE TRIP",
+      "aliases": [
+        "AVAN SAFAR COMPANY",
+        "DOTONE TRAVEL"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58183",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "BZ DIAMOND DMCC",
+      "aliases": [
+        "BZ DIAMOND FZCO"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58185",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Bahareh Morteza ZANJANI",
+      "aliases": [
+        "Bahareh Mortaza ZANJANI"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58186",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Mehdi REZAZADEH",
+      "aliases": [
+        "Mehdi RIZAZADEH"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58187",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Sukhrob OIMAKHMADOV",
+      "aliases": [
+        "Sukhrob OYMAKHMADOV"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58188",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Solmaz BANI",
+      "aliases": [
+        "Niyoosha BANI",
+        "Sara BANI"
+      ],
+      "program": "IRAN-EO13902",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58195",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Mahmoud EL-ABIARY",
+      "aliases": [
+        "Mahmoud AL-IBIARY"
+      ],
+      "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58196",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "MADAD PALESTINE CHARITABLE SOCIETY",
+      "aliases": [
+        "MADAD AI-KHAIR",
+        "MIDAD ALKHAIR",
+        "MIDAD PALESTINE CHARITABLE ASSOCIATION",
+        "MADDAD FOUNDATION",
+        "SUPPLY PALESTINE CHARITABLE SOCIETY",
+        "MADDAD FALASTIN"
+      ],
+      "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58197",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "EL-KAHIRA FOR GENERAL TRADING",
+      "aliases": [
+        "PRIMATECH",
+        "ELKAHIRA TICARET EMLAKCILIK DOMESTIC AND FOREIGN TRADE LIMITED COMPANY",
+        "DUBAI COMPANY FOR EXCHANGE",
+        "PRIMATECH TEKNOLOJI SANAYI",
+        "PRIMATECH TEKNOLOJII SANAYI IC VE DIS TICARET LIMITTED SIRKETI AND FOREIGN TRADE LIMITED COMPANY",
+        "EL-KAHIRA EXCHANGE OFFICE"
+      ],
+      "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58198",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Khaldun Khamis Zakaria ALDEN",
+      "aliases": [],
+      "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58199",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Zaid Issam Ahmed AL-JEBOURI",
+      "aliases": [],
+      "program": "SDGT",
+      "walletAddresses": [
+        "TPyE2oSoaysrXfLzwf9wetBVr9JudLwjtD",
+        "TVgUsVzA7mpFExP4zS7HHbtKti6UuBDuwZ",
+        "TLoG3vbjDgqmTD5bM7w9rMgA6ysaNReuRy",
+        "TAhHpxPRwo1Bmm1A9m51uZ31tcB7EPq7SY",
+        "TScXZTbDjjZ6a6jiC7dZjgCqfNo4vm7atV",
+        "TGr2i8ZQiiMRjP3mWyQUH2MQBfKu8GJNqm",
+        "THJUJFyTnrBWb1ijWav7qfRBrjUuKgP49Z"
+      ]
+    },
+    {
+      "id": "OFAC-58200",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Abdulla Issam Ahmad AL-JEBOURI",
+      "aliases": [],
+      "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58201",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "TUJUH BULIR GLOBAL",
+      "aliases": [
+        "SEVEN SPIKES GLOBAL",
+        "SEVEN SPIKES GLOBAL FOUNDATION"
+      ],
+      "program": "SDGT",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58202",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "ORBIT S.A.",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58203",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "TERMINAL DE CONTENEDORES DE MARIEL S.A.",
+      "aliases": [
+        "MARIEL CONTAINER TERMINAL S.A.",
+        "TCM S.A."
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58204",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CORAL MARITIMA S.A.",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58205",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CEIBA INVESTMENTS LIMITED",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58206",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "EMPRESA DE ENERGIA S.A.",
+      "aliases": [
+        "ENERSA"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58207",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "EINARBO S.A.",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58208",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "CENTRO DE INVESTIGACIONES DEL PETROLEO S.A.",
+      "aliases": [
+        "CEINPET"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58210",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS SA",
+      "aliases": [
+        "CSMC",
+        "SERVICIOS MEDICOS CUBANOS",
+        "SMC",
+        "CUBAN MEDICAL SERVICES MARKETING COMPANY"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58211",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Jose Angel PORTAL MIRANDA",
+      "aliases": [],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58212",
+      "sourceList": "OFAC",
+      "type": "entity",
+      "primaryName": "UNIDAD CENTRAL DE COOPERACION MEDICA",
+      "aliases": [
+        "CENTRAL UNIT FOR MEDICAL COOPERATION",
+        "UCCM"
+      ],
+      "program": "CUBA-EO14404",
+      "walletAddresses": []
+    },
+    {
+      "id": "OFAC-58213",
+      "sourceList": "OFAC",
+      "type": "individual",
+      "primaryName": "Gretza SANCHEZ PADRON",
+      "aliases": [],
+      "program": "CUBA-EO14404",
       "walletAddresses": []
     },
     {
@@ -208507,6 +209638,84 @@
           "QUALITY": "",
           "ALIAS_NAME": ""
         }
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909613",
+      "sourceList": "UN",
+      "type": "individual",
+      "primaryName": "CORNEILLE NANGAA YOBELUO",
+      "aliases": [
+        "CORNEILLE NANGAA",
+        "CORNEILLE YOBELUO"
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909614",
+      "sourceList": "UN",
+      "type": "individual",
+      "primaryName": "SEBASTIEN UWIMBABAZI",
+      "aliases": [
+        "GILBERT KIMENYI",
+        "NYEMBO KIMENYI"
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909615",
+      "sourceList": "UN",
+      "type": "individual",
+      "primaryName": "MUHAMMED LUMISA",
+      "aliases": [
+        "LUMISA, MUHAMAD",
+        "L. KATO",
+        "LUMINSA",
+        "LUMWINSA",
+        "MUKADE",
+        "MUKAKE"
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909616",
+      "sourceList": "UN",
+      "type": "individual",
+      "primaryName": "CHARLES SEMATAMA",
+      "aliases": [
+        "SEBANYANA"
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909617",
+      "sourceList": "UN",
+      "type": "individual",
+      "primaryName": "JOHN IMANI NZENZE",
+      "aliases": [
+        {
+          "QUALITY": "",
+          "ALIAS_NAME": ""
+        }
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909618",
+      "sourceList": "UN",
+      "type": "individual",
+      "primaryName": "GUSTAVE KUBWAYO",
+      "aliases": [
+        "SIRKOOF",
+        "SURCOUF",
+        "SURKOF"
       ],
       "program": "DRC",
       "walletAddresses": []
@@ -218137,6 +219346,34 @@
       "walletAddresses": []
     },
     {
+      "id": "UN-6909619",
+      "sourceList": "UN",
+      "type": "entity",
+      "primaryName": "ALLIANCE FLEUVE CONGO (AFC)",
+      "aliases": [
+        {
+          "QUALITY": "",
+          "ALIAS_NAME": ""
+        }
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909620",
+      "sourceList": "UN",
+      "type": "entity",
+      "primaryName": "TWIRWANEHO",
+      "aliases": [
+        {
+          "QUALITY": "",
+          "ALIAS_NAME": ""
+        }
+      ],
+      "program": "DRC",
+      "walletAddresses": []
+    },
+    {
       "id": "UN-6908539",
       "sourceList": "UN",
       "type": "entity",
@@ -220384,6 +221621,20 @@
       "sourceList": "UN",
       "type": "entity",
       "primaryName": "LIBYAN AFRICA INVESTMENT PORTFOLIO",
+      "aliases": [
+        {
+          "QUALITY": "",
+          "ALIAS_NAME": ""
+        }
+      ],
+      "program": "Libya",
+      "walletAddresses": []
+    },
+    {
+      "id": "UN-6909568",
+      "sourceList": "UN",
+      "type": "entity",
+      "primaryName": "AVAX",
       "aliases": [
         {
           "QUALITY": "",
